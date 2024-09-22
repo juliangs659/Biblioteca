@@ -1,21 +1,31 @@
 import java.util.Date;
 
 public class Book {
-    private Long id;
-    private String titulo;
-    private String autor;
-    private String categoria;
-    private String contenido; // Puede ser la URL al recurso
-    private Date fechaPublicacion;
-    private String descripcion;
-    private int cantidadPaginas;
-    private String lenguaje;
 
-  public Long getId() {
+  private long id;
+  private String titulo;
+  private String autor;
+  private String categoria;
+  private byte[] contenidoPdf;
+  private String nombreArchivo;
+  private Date fechaSubida;
+
+  public Book(long id, String titulo, String autor, String categoria, byte[] contenidoPdf, String nombreArchivo) {
+    this.id = id;
+    this.titulo = titulo;
+    this.autor = autor;
+    this.categoria = categoria;
+    this.contenidoPdf = contenidoPdf;
+    this.nombreArchivo = nombreArchivo;
+    this.fechaSubida = new Date(); // Se asigna la fecha actual
+  }
+
+  // Getters y Setters
+  public long getId() {
     return id;
   }
 
-  public void setId(Long id) {
+  public void setId(long id) {
     this.id = id;
   }
 
@@ -43,45 +53,23 @@ public class Book {
     this.categoria = categoria;
   }
 
-  public String getContenido() {
-    return contenido;
+  public byte[] getContenidoPdf() {
+    return contenidoPdf;
   }
 
-  public void setContenido(String contenido) {
-    this.contenido = contenido;
+  public void setContenidoPdf(byte[] contenidoPdf) {
+    this.contenidoPdf = contenidoPdf;
   }
 
-  public Date getFechaPublicacion() {
-    return fechaPublicacion;
+  public String getNombreArchivo() {
+    return nombreArchivo;
   }
 
-  public void setFechaPublicacion(Date fechaPublicacion) {
-    this.fechaPublicacion = fechaPublicacion;
+  public void setNombreArchivo(String nombreArchivo) {
+    this.nombreArchivo = nombreArchivo;
   }
 
-  public String getDescripcion() {
-    return descripcion;
-  }
-
-  public void setDescripcion(String descripcion) {
-    this.descripcion = descripcion;
-  }
-
-  public int getCantidadPaginas() {
-    return cantidadPaginas;
-  }
-
-  public void setCantidadPaginas(int cantidadPaginas) {
-    this.cantidadPaginas = cantidadPaginas;
-  }
-
-  public String getLenguaje() {
-    return lenguaje;
-  }
-
-  public void setLenguaje(String lenguaje) {
-    this.lenguaje = lenguaje;
+  public Date getFechaSubida() {
+    return fechaSubida;
   }
 }
-
-

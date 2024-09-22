@@ -1,15 +1,25 @@
 public class User {
-  private Long id;
+
+  private long id;
   private String nombre;
   private String email;
-  private String rol; // Admin, Usuario Regular, etc.
   private String password;
+  private String rol; // admin o usuario regular
 
-  public Long getId() {
+  public User(long id, String nombre, String email, String password, String rol) {
+    this.id = id;
+    this.nombre = nombre;
+    this.email = email;
+    this.password = password;
+    this.rol = rol;
+  }
+
+  // Getters y Setters
+  public long getId() {
     return id;
   }
 
-  public void setId(Long id) {
+  public void setId(long id) {
     this.id = id;
   }
 
@@ -29,14 +39,6 @@ public class User {
     this.email = email;
   }
 
-  public String getRol() {
-    return rol;
-  }
-
-  public void setRol(String rol) {
-    this.rol = rol;
-  }
-
   public String getPassword() {
     return password;
   }
@@ -44,5 +46,12 @@ public class User {
   public void setPassword(String password) {
     this.password = password;
   }
-}
 
+  public String getRol() {
+    return rol;
+  }
+
+  public void setRol(String rol) {
+    this.rol = rol;
+  }
+}
