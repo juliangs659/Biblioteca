@@ -15,7 +15,6 @@ https://docs.google.com/document/d/1KUbF4yigpzQWHOhYU2a1rFtJwNq08t7bM2_APqiT6L8/
 - **Backend**: Spring Boot (Java)
 - **Frontend**: Angular
 - **Base de Datos**: MySQL / PostgreSQL (opcional)
-- **Seguridad**: Spring Security
 
 ## Características
 
