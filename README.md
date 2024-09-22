@@ -5,6 +5,10 @@ Este es un proyecto de **Biblioteca Digital** enfocado en el aprendizaje de desa
 ```
 https://drive.google.com/drive/folders/1_xjw5g2wUg4LwTwToekoveY67X6veNk2?usp=sharing
 ```
+## Documento para gestion de ideas o informacion 
+```
+https://docs.google.com/document/d/1KUbF4yigpzQWHOhYU2a1rFtJwNq08t7bM2_APqiT6L8/edit?usp=sharing
+```
 
 ## Tecnologías Utilizadas
 
