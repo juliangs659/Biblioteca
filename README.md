@@ -8,7 +8,6 @@ Este es un proyecto de **Biblioteca Digital** enfocado en el aprendizaje de desa
 - **Frontend**: Angular
 - **Base de Datos**: MySQL / PostgreSQL (opcional)
 - **Seguridad**: Spring Security
-- **ORM**: Hibernate (JPA)
 
 ## Características
 
