@@ -1,6 +1,10 @@
 # Biblioteca Digital - Web App
 
 Este es un proyecto de **Biblioteca Digital** enfocado en el aprendizaje de desarrollo de software. La aplicación permite a los usuarios explorar, acceder y gestionar libros digitales sobre programación y temas relacionados.
+## Libros a usar (la idea es agregar o eliminar algunos)
+```
+https://drive.google.com/drive/folders/1_xjw5g2wUg4LwTwToekoveY67X6veNk2?usp=sharing
+```
 
 ## Tecnologías Utilizadas
 
