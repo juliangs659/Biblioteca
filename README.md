@@ -19,12 +19,6 @@ https://drive.google.com/drive/folders/1_xjw5g2wUg4LwTwToekoveY67X6veNk2?usp=sha
 - **Gestión de Libros**: Los administradores pueden añadir, editar y eliminar libros del catálogo.
 - **Categorías**: Organización de los libros por categorías (lenguajes de programación, frameworks, etc.).
 
-## Requisitos del Sistema
-
-- **Java 11** o superior
-- **Node.js** (para el frontend con Angular)
-- **MySQL** o **PostgreSQL** (u otro sistema de base de datos)
-- **Maven** (para la gestión de dependencias del backend)
 
 ## Instalación
 
@@ -36,5 +30,5 @@ https://drive.google.com/drive/folders/1_xjw5g2wUg4LwTwToekoveY67X6veNk2?usp=sha
 
 ## Contribuciones
 
-Las contribuciones son bienvenidas. Si tienes alguna sugerencia, por favor abre un _issue_ o envía un _pull request_.
+Las contribuciones son bienvenidas.
 
