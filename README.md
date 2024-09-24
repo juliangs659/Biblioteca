@@ -9,6 +9,10 @@ https://drive.google.com/drive/folders/1_xjw5g2wUg4LwTwToekoveY67X6veNk2?usp=sha
 ```
 https://docs.google.com/document/d/1KUbF4yigpzQWHOhYU2a1rFtJwNq08t7bM2_APqiT6L8/edit?usp=sharing
 ```
+## Especificación de Requisitos de Software (SRS) 
+```
+https://docs.google.com/document/d/1NOpXw1yHePt8Z79CG_zjooF9jHZFfBh4_eyXFBgGZZw/edit?usp=sharing
+```
 
 ## Tecnologías Utilizadas
 
