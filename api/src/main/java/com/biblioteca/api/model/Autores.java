@@ -1,19 +1,19 @@
-package model;
+package com.biblioteca.api.model;
 
-public class Roles {
+public class Autores {
     private Long id;
-    private String nombre;    
+    private String nombre;
 
     public Long getId() {
         return id;
     }
 
-    public String getNombre() {
-        return nombre;
-    }
-
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 
     public void setNombre(String nombre) {
