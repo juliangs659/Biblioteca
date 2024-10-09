@@ -1,22 +1,22 @@
+package model;
+
 import java.util.Date;
 
 public class Book {
 
   private long id;
   private String titulo;
-  private String autor;
   private String categoria;
-  private byte[] contenidoPdf;
-  private String nombreArchivo;
+  private Estado estado; //('uploaded','review','ok')
+  private String contenidoPdf;
   private Date fechaSubida;
 
-  public Book(long id, String titulo, String autor, String categoria, byte[] contenidoPdf, String nombreArchivo) {
+  public Book(long id, String titulo, String categoria, Estado estado, String contenidoPdf) {
     this.id = id;
     this.titulo = titulo;
-    this.autor = autor;
     this.categoria = categoria;
+    this.estado = estado;
     this.contenidoPdf = contenidoPdf;
-    this.nombreArchivo = nombreArchivo;
     this.fechaSubida = new Date(); // Se asigna la fecha actual
   }
 
@@ -37,14 +37,6 @@ public class Book {
     this.titulo = titulo;
   }
 
-  public String getAutor() {
-    return autor;
-  }
-
-  public void setAutor(String autor) {
-    this.autor = autor;
-  }
-
   public String getCategoria() {
     return categoria;
   }
@@ -53,20 +45,20 @@ public class Book {
     this.categoria = categoria;
   }
 
-  public byte[] getContenidoPdf() {
+  public Estado getEstado() {
+    return estado;
+  }
+
+  public void setEstado(Estado estado) {
+    this.estado = estado;
+  }
+
+  public String getContenidoPdf() {
     return contenidoPdf;
   }
 
-  public void setContenidoPdf(byte[] contenidoPdf) {
+  public void setContenidoPdf(String contenidoPdf) {
     this.contenidoPdf = contenidoPdf;
-  }
-
-  public String getNombreArchivo() {
-    return nombreArchivo;
-  }
-
-  public void setNombreArchivo(String nombreArchivo) {
-    this.nombreArchivo = nombreArchivo;
   }
 
   public Date getFechaSubida() {

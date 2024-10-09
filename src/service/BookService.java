@@ -1,6 +1,10 @@
+package service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
+import model.Book;
+import model.Estado;
 
 public class BookService {
 
@@ -12,8 +16,8 @@ public class BookService {
   private List<Book> libros = new ArrayList<>();
   private long idCounter = 1;
 
-  public Book agregarLibro(String titulo, String autor, String categoria, byte[] contenidoPdf, String nombreArchivo) {
-    Book nuevoLibro = new Book(idCounter++, titulo, autor, categoria, contenidoPdf, nombreArchivo);
+  public Book agregarLibro(String titulo, String categoria, Estado estado, String contenidoPdf) {
+    Book nuevoLibro = new Book(idCounter++, titulo, categoria, estado, contenidoPdf);
     libros.add(nuevoLibro);
     return nuevoLibro;
   }
