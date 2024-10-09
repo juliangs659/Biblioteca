@@ -1,9 +1,9 @@
-package service;
+package com.biblioteca.api.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import model.Comment;
+import com.biblioteca.api.model.Comment;
 
 public class CommentService {
     private List<Comment> comentarios = new ArrayList<>();

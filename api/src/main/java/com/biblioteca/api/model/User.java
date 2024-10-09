@@ -1,4 +1,4 @@
-package model;
+package com.biblioteca.api.model;
 
 public class User {
   private long id;

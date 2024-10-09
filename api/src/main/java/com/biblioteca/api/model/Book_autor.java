@@ -1,4 +1,4 @@
-package model;
+package com.biblioteca.api.model;
 
 public class Book_autor {
     private Long id_book;    

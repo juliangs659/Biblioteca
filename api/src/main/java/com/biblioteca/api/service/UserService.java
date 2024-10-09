@@ -1,10 +1,10 @@
-package service;
+package com.biblioteca.api.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import model.User;
+import com.biblioteca.api.model.User;
 
 public class UserService {
 

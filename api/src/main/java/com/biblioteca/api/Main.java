@@ -1,16 +1,17 @@
-import java.util.Optional;
+/*package com.biblioteca.api;
+/*import java.util.Optional;
 
-import model.Book;
-import model.Comment;
-import model.Estado;
-import model.User;
-import service.BookService;
-import service.CommentService;
-import service.UserService;
+import com.biblioteca.api.model.Book;
+import com.biblioteca.api.model.Comment;
+import com.biblioteca.api.model.Estado;
+import com.biblioteca.api.model.User;
+import com.biblioteca.api.service.BookService;
+import com.biblioteca.api.service.CommentService;
+import com.biblioteca.api.service.UserService;
 
 public class Main {
 
-  public static void main(String[] args) {
+  public static void main() {
     // Ejemplo de Uso.
 
     // Servicios
@@ -79,4 +80,4 @@ public class Main {
     commentService.obtenerTodosLosComentarios().forEach(comentario -> 
     System.out.println(comentario.getComment()));   
   }
-}
+}*/

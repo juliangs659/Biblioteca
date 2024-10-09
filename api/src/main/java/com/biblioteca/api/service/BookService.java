@@ -1,10 +1,11 @@
-package service;
+package com.biblioteca.api.service;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import model.Book;
-import model.Estado;
+import com.biblioteca.api.model.Book;
+import com.biblioteca.api.model.Estado;
 
 public class BookService {
 

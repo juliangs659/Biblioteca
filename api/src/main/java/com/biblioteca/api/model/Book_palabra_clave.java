@@ -1,4 +1,4 @@
-package model;
+package com.biblioteca.api.model;
 
 public class Book_palabra_clave {
     private Long libro_id;    
